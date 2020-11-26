@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.min.css">
+<link rel="stylesheet" href="test.css">
+  <link id="prism" href="prism-light.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <title>Vectorium Docs: Vectorium Docs</title>
+</head>
+<body>
+  <div class="d-flex flex-column h-100">
+    <header class="d-flex align-items-center bg-white border-bottom text-secondary text-center px-3 py-2">
+      <button id="btn-menu-toggler" class="navbar-toggler text-secondary" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="flex-grow-1 d-flex justify-content-center">
+        <a href="./" class="navbar-brand ml-3">
+          Vectorium Docs
+        </a>
+      </div>
+<label class="switch">
+  <input id="theme" type="checkbox" onchange="switchTheme()">
+  <span class="slider round"></span>
+</label>
+    </header>
+    <div class="d-flex overflow-hidden" style="flex-grow: 1;">
+      <aside id="side-menu" class="bg-light border-right overflow-y-auto">
+        <ul class="nav flex-column">
+          <li><i data-target="#folder-1" class="fas fa-circle text-primary bullet"></i> <a href="index.html" class="text-dark font-weight-bold active">Vectorium Docs</a></li>
+<li><i data-target="#folder-2" class="fas fa-plus-square text-primary cursor-pointer"></i> <a href="QuickstartGuide.html" class="text-dark">Quickstart guide</a>
+<ul id="folder-2" style="display: none;">
+<li><i data-target="#folder-3" class="fas fa-circle text-primary bullet"></i> <a href="QuickstartPreamble.html" class="text-dark">Preamble</a></li>
+<li><i data-target="#folder-4" class="fas fa-circle text-primary bullet"></i> <a href="QuickstartInstallation.html" class="text-dark">Installation</a></li>
+</ul>
+</li>
+<li><i data-target="#folder-5" class="fas fa-plus-square text-primary cursor-pointer"></i> <a href="ScriptingAPI.html" class="text-dark">Scripting API</a>
+<ul id="folder-5" style="display: none;">
+<li><i data-target="#folder-6" class="fas fa-plus-square text-primary cursor-pointer"></i> <a href="Vec2.html" class="text-dark">Vec2</a>
+<ul id="folder-6" style="display: none;">
+<li><i data-target="#folder-7" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.add.html" class="text-dark">add</a></li>
+<li><i data-target="#folder-8" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.add_new.html" class="text-dark">add_new</a></li>
+<li><i data-target="#folder-9" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.cmpeq.html" class="text-dark">cmpeq</a></li>
+<li><i data-target="#folder-10" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.cmpge.html" class="text-dark">cmpge</a></li>
+<li><i data-target="#folder-11" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.cmpgt.html" class="text-dark">cmpgt</a></li>
+<li><i data-target="#folder-12" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.cmple.html" class="text-dark">cmple</a></li>
+<li><i data-target="#folder-13" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.cmplt.html" class="text-dark">cmplt</a></li>
+<li><i data-target="#folder-14" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.cmpne.html" class="text-dark">cmpne</a></li>
+<li><i data-target="#folder-15" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.cross.html" class="text-dark">cross</a></li>
+<li><i data-target="#folder-16" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.distance.html" class="text-dark">distance</a></li>
+<li><i data-target="#folder-17" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.dot.html" class="text-dark">dot</a></li>
+<li><i data-target="#folder-18" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.extend.html" class="text-dark">extend</a></li>
+<li><i data-target="#folder-19" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.is_normalized.html" class="text-dark">is_normalized</a></li>
+<li><i data-target="#folder-20" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.lerpy.html" class="text-dark">lerpy</a></li>
+<li><i data-target="#folder-21" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.max_element.html" class="text-dark">max_element</a></li>
+<li><i data-target="#folder-22" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.max_elements.html" class="text-dark">max_elements</a></li>
+<li><i data-target="#folder-23" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.min_element.html" class="text-dark">min_element</a></li>
+<li><i data-target="#folder-24" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.min_elements.html" class="text-dark">min_elements</a></li>
+<li><i data-target="#folder-25" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.normalize.html" class="text-dark">normalize</a></li>
+<li><i data-target="#folder-26" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.one.html" class="text-dark">one</a></li>
+<li><i data-target="#folder-27" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.ortho.html" class="text-dark">ortho</a></li>
+<li><i data-target="#folder-28" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.scalar_div.html" class="text-dark">scalar_div</a></li>
+<li><i data-target="#folder-29" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.scalar_mul.html" class="text-dark">scalar_mul</a></li>
+<li><i data-target="#folder-30" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.set.html" class="text-dark">set</a></li>
+<li><i data-target="#folder-31" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.sub.html" class="text-dark">sub</a></li>
+<li><i data-target="#folder-32" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.sub_new.html" class="text-dark">sub_new</a></li>
+<li><i data-target="#folder-33" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.to_string.html" class="text-dark">to_string</a></li>
+<li><i data-target="#folder-34" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.truncate.html" class="text-dark">truncate</a></li>
+<li><i data-target="#folder-35" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.unit_x.html" class="text-dark">unit_x</a></li>
+<li><i data-target="#folder-36" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.unit_y.html" class="text-dark">unit_y</a></li>
+<li><i data-target="#folder-37" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.x.html" class="text-dark">x</a></li>
+<li><i data-target="#folder-38" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.y.html" class="text-dark">y</a></li>
+<li><i data-target="#folder-39" class="fas fa-circle text-primary bullet"></i> <a href="Vec2.zero.html" class="text-dark">zero</a></li>
+</ul>
+</li>
+<li><i data-target="#folder-40" class="fas fa-plus-square text-primary cursor-pointer"></i> <a href="Vec2Eq.html" class="text-dark">Vec2Eq</a>
+<ul id="folder-40" style="display: none;">
+<li><i data-target="#folder-41" class="fas fa-circle text-primary bullet"></i> <a href="Vec2Eq.any.html" class="text-dark">any</a></li>
+<li><i data-target="#folder-42" class="fas fa-circle text-primary bullet"></i> <a href="Vec2Eq.every.html" class="text-dark">every</a></li>
+<li><i data-target="#folder-43" class="fas fa-circle text-primary bullet"></i> <a href="Vec2Eq.x.html" class="text-dark">x</a></li>
+<li><i data-target="#folder-44" class="fas fa-circle text-primary bullet"></i> <a href="Vec2Eq.y.html" class="text-dark">y</a></li>
+</ul>
+</li>
+<li><i data-target="#folder-45" class="fas fa-circle text-primary bullet"></i> <a href="Vec3.html" class="text-dark">Vec3</a></li>
+</ul>
+</li>
+
+        </ul>
+      </aside>
+      <div id="page-wrapper" class="container-fluid overflow-x-auto overflow-y-auto p-0 bg-white">
+        <div id="page-content" class="container py-3">
+          <nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item active">Vectorium Docs</li></nav></ol>
+<h1>Vectorium</h1>
+<p>Welcome to the official documentation for the latest version of Vectorium!</p>
+<p>Vectorium is a simple linear algebra library for GameMaker Studio 2.3, which is not just limited to mathematic operations, but also extended vector mathematics and vectorial equations.</p>
+<p>In this document you can find a guide that will help you get started with Vectorium easily, as well as a documentation for the entire Scripting API.</p>
+<h2>Links</h2>
+<ul>
+<li><a href="http://-">itch.io</a></li>
+<li><a href="http://-">YoYo Games Marketplace</a></li>
+<li><a href="http://-">GitHub</a></li>
+</ul>
+<h2>Contents</h2>
+<ul>
+<li><a href="./QuickstartGuide.html">Quickstart guide</a></li>
+<li><a href="./ScriptingAPI.html">Scripting API</a></li>
+</ul>
+
+
+          
+
+          <div class="d-flex w-100 rounded bg-light align-items-center justify-content-between px-3 mt-3" style="font-size: 3em;">
+            <a href="#">
+              <i class="fas fa-arrow-circle-left text-dark"></i>
+            </a>
+            <a href="QuickstartGuide.html">
+              <i class="fas fa-arrow-circle-right text-dark"></i>
+            </a>
+          </div>
+
+          <hr>
+
+          <p>
+            <small class="text-muted">
+              Copyright &copy; 2020, eL-Falso. Built on November 25, 2020 using
+              <a href="https://github.com/kraifpatrik/gmdoc">GMDoc</a>.
+            </small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="test.js"></script>
+  <script src="prism.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
