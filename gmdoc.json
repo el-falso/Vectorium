@@ -1,0 +1,22 @@
+{
+  "_version": 2,
+  "project": "Vectorium",
+  "project_name": "Vectorium",
+  "title": "Vectorium Docs",
+  "author": "eL-Falso",
+  "prefix": "",
+  "analytics": "",
+  "api": {
+    "rating": ""
+  },
+  "toc": {
+    "Vectorium Docs": "index.md",
+    "Quickstart guide": {
+      "file": "QuickstartGuide/QuickstartGuide.md",
+      "pages": {
+	"Preamble": "QuickstartGuide/QuickstartPreamble.md",
+        "Installation": "QuickstartGuide/QuickstartInstallation.md"
+      }
+    }
+  }
+}
