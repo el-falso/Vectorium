@@ -530,7 +530,7 @@ function Vec2(_x, _y) constructor {
 	static lerpy = function(_finish, _amt) {
 		_amt = clamp(_amt, 0, 1);
 		if (!self.cmpeq(_finish)) {
-			self.x += _amt * (_finish.y - self.x);
+			self.x += _amt * (_finish.x - self.x);
 			self.y += _amt * (_finish.y - self.y);
 		}
 		return self;
